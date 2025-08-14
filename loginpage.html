@@ -12,7 +12,7 @@
         crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
 
 
 </head>
@@ -20,7 +20,7 @@
 
 <style>
     body {
-          font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .my-text {
@@ -70,22 +70,20 @@
         <div class="row">
 
             <div class="col-lg-6 col-md-6 leftSideComponent" style="height: 1000px; background-color: white">
-                <h1> Sign in</h1>
-                <h2>  welcome</h2>
-                <form action="" method="">
-        
-                    <label class="required fields" for="emailAddress">required fields</label>
-                   <label class="email" for="emailAddress">Email address </label><br>
-                    <input type="email" name="email" value="" id="emailAddress"><br>
+                <div class="childleftSideComponent">
+                    <h1> Sign in</h1>
+                    <form action="" method="">                    
+                    <label class="email">Email address </label><br>
+                    <input type="email" name="email" value=""><br>
                     <label for="PasswordId">Password</label><br>
                     <input type="password" name="Password" value="" id="PasswordId"><br>
-                    <button> SIGN IN</button><br>
+                    <button class="signinbutton"> SIGN IN</button><br>
 
-                </form>
-                <a href="#">Forgot your password ?</a>
-
+                 </form>
+                 <a href="#">Forgot your password ?</a>
+                </div>
             </div>
-            <div class="col-lg-6 col-md-6 rightSideComponent">
+            <div class="col-lg-6 col-md-6  rightSideComponent">
                 <div style="width: 479px;height: 739px; background-color: #F4F3EB; margin: 100px;">
                     <div class="my-text">Interested in creating an account with Drive?</div>
                     <p>For our business partners, you can register to get access to B2B Ordering, where you can place
@@ -94,7 +92,7 @@
                     <button class="button-customer" type="Submit">APPLY FOR AN ACCOUNT</button>
                     <div class="my-text">Existing Customers</div>
                     <button class="button-style" type="Submit">REQUEST ACCESS</button>
-                    <h1>prasanna</h1>
+                    <!-- <h1>prasanna</h1> -->
                 </div>
             </div>
         </div>
