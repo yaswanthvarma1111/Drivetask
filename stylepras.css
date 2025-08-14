@@ -1,0 +1,136 @@
+.rightSideComponent {
+    /* border: 2px solid red; */
+    padding: 0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh;  */
+}
+
+.parent {
+    width: 479px;
+    height: 739px;
+    background-color: #F4F3EB;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
+.heading-1 {
+    color: #3c3c3c;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.para-1 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #3c3c3c;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.heading-2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+
+}
+
+.button-1 {
+    background-color: #ffffff;
+    border: 2px solid #3e818a;
+    color: #3e818a;
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* display: block; */
+    padding: 25px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* margin-top: 15px; */
+    width: 320px;
+    display: inline-block;
+    padding: 12px 20px;
+
+
+}
+
+.button-1, .button-2 {
+  cursor: pointer;
+  border: 2px solid #1a7d80;
+  background-color: white;
+  color: #1a7d80;
+  padding: 12px 20px;
+  font-weight: bold;
+}
+
+.button-1:hover, .button-2:hover {
+  background-color: #1a7d80; 
+  color: white;              
+}
+
+.heading-3 {
+    /* border-top: 1px  black; */
+    color: #3c3c3c;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 700;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+
+
+
+}
+
+/* .heading-3{
+   border-top: 1px solid #ccc;
+  padding-top: 20px;
+} */
+/* .divider{
+    border: none;
+    border-top: 1px solid #ccc; 
+    margin: 20px 0;             
+    width: 800px;  
+}  */
+
+.box-2 {
+    border-top: 1px solid #ccc;
+    /* divider line */
+    padding-top: 20px;
+    /* space above content */
+}
+.button-2{
+    background-color: #ffffff;
+    border: 2px solid #3e818a;
+    color: #3e818a;
+    font-size: 1.4rem;
+    text-align: center;
+    display: block;
+    padding: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 15px;
+    /* width: 320px; */
+}
+
+.box-1 button,
+.box-2 button {
+  display: inline-block;
+  margin: 0 auto; /* keeps them centered */
+}
+.box-1, .box-2 {
+  text-align: center;
+}
