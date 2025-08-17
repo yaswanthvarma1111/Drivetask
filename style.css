@@ -1,73 +1,113 @@
 .leftSideComponent {
-    border: 2px solid green;
+    /* border: 2px solid black; */
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content:end;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c5082654393e34bf1b7880e190c07ea2ab941226
 /* .rightSideComponent {
     border: 2px solid red;
 } */
 .childleftSideComponent {
-    border: 2px solid blue;
-    height: 100vh;
+    /* border: 2px solid blue;
+     */
     width: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    padding-top:65px;
+
 }
+
 #signin{
-    font-size:30px;
-    letter-spacing: 2px;
-    padding-bottom: 0px;
-    color: #4a4a4a;
-    display: inline-block;
-    font-weight: 600;
-    margin: 0px; 
- 
+    font-size:2rem;
+    font-weight:600;
+    color: #4a4a4a; 
+}
+form{
+    /* border: 2px solid red; */
+    margin-top: 30px;
 }
 .requiredfields {
     color: red;
     font-size: 12px;
-
+   
 }
 .emailfeild {
     width: 446.65px;
     height: 70px;
     background: FFFFFF;
-    padding-bottom: 10px;
-    margin-bottom: 100px;
-
+    padding: 15px;
+    
 }
 .passwordfield {
     width: 446.65px;
     height: 70px;
-    padding-bottom: 10px;
-    margin-bottom: 150px;
+    margin-top: 10px;
+    padding: 15px;
 }
 
 .signincontainer {
-     border: 2px solid red; 
+     /* border: 2px solid red;  */
      display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
-    width: 446.65px;
-    margin-bottom:15px;
-    padding-bottom:50px;
+    width:100%;
+    
 }
 .emailaddress{
     margin-bottom: 10px;
+    font-weight: 300;
+    
 }
 .password{
-     margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 300;
 
-}
-
-
-.signinbutton {
-    background-color: #3e818a;
 }
 
 .forgot{
     text-decoration: none; 
+    background-color: transparent;
+    color: #1f355e;
+    margin-top: 40px;
+   
+}
+.signinbutton {
+    background-color: #3e818a; 
+     font-size:1rem;
+     font-weight:700;  
+     width:250px ;
+     height:60px ;
+    color: #ffffff;;
+    background-color: #3e818a; 
+    cursor: pointer;
+    border: none;
+    text-transform:uppercase;
+   
+}
+.signinbutton:hover{
+    background-color:#24345B;
+    
+}
+
+.emailaddress::before{
+  content:"*";
+  color: red;
+}
+.password::before{
+    content:"*";
+    color: red;
+}
+.form-action{
+    /* border: 2px solid salmon; */
+     height:30vh;
+     display: flex;
+     flex-direction:column; 
+     align-items: center;
+     margin-top: 70px;
 }
