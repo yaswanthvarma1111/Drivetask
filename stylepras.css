@@ -1,12 +1,9 @@
 .rightSideComponent {
-    /* border: 2px solid red; */
+
     padding: 0;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-
-    /* height: 100vh;  */
 }
 
 .parent {
@@ -17,7 +14,6 @@
     margin: 0 auto;
     font-family: 'Segoe UI', sans-serif;
     border: 1px solid #ccc;
-
 }
 
 .heading-1 {
@@ -33,7 +29,6 @@
     padding-left: 0;
     padding-right: 70px;
     margin: 0;
-
 }
 
 .para-1 {
@@ -56,13 +51,11 @@
 
 .button-1 {
     background-color: #ffffff;
-    /* border: 2px solid #3e818a; */
     color: #3e818a;
     font-size: 15px;
     text-align: center;
     display: flex;
     justify-content: center;
-    /* padding: 2px 10px;  */
     text-transform: uppercase;
     text-decoration: none;
     width: 300px;
@@ -74,10 +67,10 @@
     border: 2px solid #1a7d80;
     background-color: white;
     color: #1a7d80;
-    padding: 15px 10px;
-    /* padding-top: 20px;
-    padding-left: 1px; */
-    font-weight: bold;
+    padding: 15px 10px; 
+     padding-top: 20px;
+    padding-left: 1px;
+    font-weight: bold; 
 }
 
 .button-1:hover,
@@ -87,14 +80,10 @@
 }
 
 .heading-3 {
-    /* border-top: 1px  black; */
     color: #3c3c3c;
-    ;
     font-size: 20px;
     line-height: 35px;
     font-weight: 700;
-    /* padding: 20px 0; */
-    /* margin: 0; */
     text-align: center;
     padding-bottom: 10px;
 }
@@ -105,7 +94,7 @@
     color: #3e818a;
     font-size: 15px;
     text-align: center;
-    display: block;
+    /* display: block; */
     padding: 15px 10px;
     text-transform: uppercase;
     text-decoration: none;
@@ -125,9 +114,6 @@
     text-align: center;
 }
 
-
-
-
 .box-1 {
     padding: 30px;
 }
@@ -136,5 +122,37 @@
 .box-2 {
     background-color: white;
     padding: 30px;
-    border-top: 1px solid #ccc;
+   
 }
+
+/* .parent>.extra-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; 
+    border: none;
+    
+
+}
+
+.extra-section {
+    background: #fff;     
+    border: none;           
+    padding: 20px;          
+}
+
+.heading-4 {
+    font-size: 16px;
+    font-weight: bold;
+   color: #333;
+}
+
+.link-provider {
+    font-size: 14px;
+    color: #1d5d61;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.link-provider:hover {
+    text-decoration: underline; 
+}  */
